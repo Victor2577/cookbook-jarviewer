@@ -16,6 +16,7 @@
 package com.davidsalter.cookbook.jarviewer;
 
 import com.davidsalter.cookbook.jarviewer.gui.MainFrame;
+import java.util.logging.Logger;
 
 /**
  *
@@ -34,5 +35,6 @@ public class Main {
             }
         });
     }
+    private static final Logger LOG = Logger.getLogger(Main.class.getName());
 
 }
